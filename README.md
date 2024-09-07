@@ -21,6 +21,7 @@ pip install -r requirements-dev.txt
 ```
 4. Lastly, set up environment variables in an .env file
 ```
+FRONTEND_URL="REDACTED"
 SERIALIZER_SECRET_KEY="REDACTED"
 EVENTSTAR_EMAIL="REDACTED"
 EVENTSTAR_EMAIL_PASSWORD="REDACTED"
