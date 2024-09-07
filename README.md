@@ -27,7 +27,7 @@ Also get the requirements for devs so we can all use the same linting tools.
 ```
 pip install -r requirements-dev.txt
 ```
-5. Set up environment variables in an .env file
+5. Lastly, set up environment variables in an .env file
 ```
 SERIALIZER_SECRET_KEY="REDACTED"
 EVENTSTAR_EMAIL="REDACTED"
