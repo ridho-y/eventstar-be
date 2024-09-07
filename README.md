@@ -1,5 +1,5 @@
 ## Setting up your python virtual environment
-1. Navigate to your project root directory `capstone-project-3900h18bthebinarybrotherhood`.Then run the command:
+1. Navigate to your project root directory and then run the command:
 ```
 python3 -m venv env
 ```
@@ -11,15 +11,7 @@ Now you've created a new python virtual environment.
 ```
 source env/bin/activate
 ```
-3. Confirm you're in the right virtual environment using1s
-```
-which python
-```
-this should give something like 
-```
-.../capstone-project-3900h18bthebinarybrotherhood/env/bin/python
-```
-4. Nice, now lets install the packages using pip that you actually need for the project. Do this using:
+3. Nice, now lets install the packages using pip that you actually need for the project. Do this using:
 ```
 pip install -r requirements.txt
 ```
@@ -27,7 +19,7 @@ Also get the requirements for devs so we can all use the same linting tools.
 ```
 pip install -r requirements-dev.txt
 ```
-5. Lastly, set up environment variables in an .env file
+4. Lastly, set up environment variables in an .env file
 ```
 SERIALIZER_SECRET_KEY="REDACTED"
 EVENTSTAR_EMAIL="REDACTED"
